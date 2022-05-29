@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Simple Portfolio</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="brand-name">Sim Folio</div>
+        <div id="nav-links">
+            <a href="#welcome-section">Home</a>
+            <a href="#projects">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="welcome-section">
+        <div id="about">
+            <h1>
+                &#128075; 
+                Hi
+                &#128075; 
+            </h1>
+            <h2>I am Sim</h2>
+            <h3>I am a web developer</h3>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h4>My Project List</h4>
+        <div class="list">
+            <a href="#/" class="project-tile">
+                <p>JS Calculator</p>
+                <img src="calculator.png" alt="Javascript calculator game" width="350px">
+            </a>
+            <a href="#/" class="project-tile">
+                <p>Tic Tac Toe Game</p>
+                <img src="tic-tac-toe.png" alt="The tic-tac-toe game" width="350px" height="245px">
+            </a>
+            <a href="#/" class="project-tile">
+                <p>The Maze Game</p>
+                <img src="maze-game.png" alt="The maze game" width="350px" height="245px">
+            </a>
+        </div>
+        <div id="skills">
+            <p>HTML</p>
+            <div class="container">
+                <div class="skill html">90%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container">
+                <div class="skill css">85%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skill js">80%</div>
+            </div>
+
+            <p>Python</p>
+            <div class="container">
+                <div class="skill python">90%</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h4>Contact Me</h4>
+        <form action="">
+
+            <fieldset>
+                <label>
+                    Enter Your Name: 
+                    <input type="text" name="first-name" placeholder="John Doe" />
+                </label>
+                <label>
+                    Enter Your Email: 
+                    <input type="email" name="email" placeholder="example@email.com"/>
+                </label>
+                <label>
+                    Enter Your Message:
+                    <textarea name="message" rows="10" cols="30" placeholder="Your message starts here... "></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit" />
+
+        </form>
+    </section>
+
+    <footer>
+        <div id="create-by">&#169; Created by Sim Folio</div>
+        <div id="social-links">
+            <a href="https://www.freecodecamp.org/fcc331693e8-9b20-4943-9a93-b54054898e6d" id="profile-link" target="_blank">
+                <i class="fab fa-free-code-camp"></i>
+            </a>
+            <a href="#/">
+                <i class="fab fa-github-square"></i>
+            </a>
+            <a href="#/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#/">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="#/">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
